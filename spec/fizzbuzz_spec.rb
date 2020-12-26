@@ -3,6 +3,8 @@ require_relative './spec_helper.rb'
 def fizzbuzz(int)
   if int % 3 == 0
     "fizz"
+    if int % 0 == 0
+      "buzz"
   end
 end
 describe "fizzbuzz" do
