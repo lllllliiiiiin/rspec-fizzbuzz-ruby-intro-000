@@ -1,17 +1,10 @@
 require_relative './spec_helper.rb'
+
 # We are missing a 'require_relative' here. Check README.md for instructions and an explanation!
-class FizzBuzz
-  def divisible_by(number)
-    if number % 15 == 0
-      "FizzBuzz"
-    elsif number % 3 == 0
-      "Fizz"
-    elsif number % 5 == 0
-      "Buzz"
-    else
-      number
-    end
-  end
+def fizzbuzz(int)
+if int % 3 == 0
+  "Fizz"
+end
 end
 
 describe "fizzbuzz" do
