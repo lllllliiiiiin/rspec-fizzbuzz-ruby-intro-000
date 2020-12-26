@@ -2,13 +2,13 @@ require_relative './spec_helper.rb'
 # We are missing a 'require_relative' here. Check README.md for instructions and an explanation!
 def fizzbuzz(int)
   if int % 3 == 0
-    "fizz"
+    "Fizz"
   end
   if int % 5 == 0
-    "buzz"
+    "Buzz"
   end
   if int % 15 == 0
-    "fizzbuzz"
+    "FizzBuzz"
   end
 end
 describe "fizzbuzz" do
