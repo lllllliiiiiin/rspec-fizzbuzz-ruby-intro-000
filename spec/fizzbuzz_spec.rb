@@ -8,6 +8,7 @@ end
 if int % 5 == 0
   "Buzz"
 end
+end
 
 describe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
