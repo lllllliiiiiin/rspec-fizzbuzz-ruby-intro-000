@@ -9,7 +9,7 @@ elsif int % 5 == 0
 elsif int % 3 == 0  && int % 5 == 0
   "FizzBuzz"
 end
-end
+
 
 describe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
