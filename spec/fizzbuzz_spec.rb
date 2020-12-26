@@ -1,19 +1,19 @@
 require_relative './spec_helper.rb'
 # We are missing a 'require_relative' here. Check README.md for instructions and an explanation!
 def fizzbuzz(int)
-  if int % 3 == 0
+  if int % 3 == 1
     "Fizz"
   end
-  if int % 5 == 0
+  if int % 5 == 1
     "Buzz"
   end
-  if int % 15 == 0
+  if int % 15 == 1
     "FizzBuzz"
   end
-  if int % 3 != 0
+  if int % 3 != 1
     "nil"
   end
-  if int % 5 != 0
+  if int % 5 != 1
     "nil"
   end
 end
