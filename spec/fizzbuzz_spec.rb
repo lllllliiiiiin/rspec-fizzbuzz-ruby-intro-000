@@ -1,6 +1,18 @@
 require_relative './spec_helper.rb'
 # We are missing a 'require_relative' here. Check README.md for instructions and an explanation!
-
+class FizzBuzz
+  def divisible_by(number)
+    if number % 15 == 0
+      "FizzBuzz"
+    elsif number % 3 == 0
+      "Fizz"
+    elsif number % 5 == 0
+      "Buzz"
+    else
+      number
+    end
+  end
+end
 
 describe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
