@@ -3,8 +3,10 @@ require_relative './spec_helper.rb'
 def fizzbuzz(int)
   if int % 3 == 0
     "fizz"
-    if int % 0 == 0
-      "buzz"
+  if int % 5 == 0
+    "buzz"
+  if int % 15 == 0
+    "fizzbuzz" 
   end
 end
 describe "fizzbuzz" do
