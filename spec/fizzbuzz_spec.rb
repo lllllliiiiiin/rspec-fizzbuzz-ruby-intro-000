@@ -3,11 +3,11 @@ require_relative './spec_helper.rb'
 # We are missing a 'require_relative' here. Check README.md for instructions and an explanation!
 def fizzbuzz(int)
   if int % 3 == 0
-    puts "Fizz"
+     "Fizz"
   elsif int % 5 == 0
-    puts "Buzz"
+     "Buzz"
   elsif int % 3 == 0  && int % 5 == 0
-    puts "FizzBuzz"
+     "FizzBuzz"
   else
     nil
   end
